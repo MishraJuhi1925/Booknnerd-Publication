@@ -4,15 +4,12 @@ import '../assets/css/contact.css';
 function Contact() {
   return (
     <>
-      {/* Transparent Hero Section */}
       <div className="contact-hero">
         <div className="hero-text">
           <h1>Contact Us</h1>
           <p>We'd love to hear from you! Contact us with any questions or feedback.</p>
         </div>
       </div>
-
-      {/* Floating Contact Box */}
       <div className="contact-box">
         <h2>📩 Have a Question or Need a Consultation?</h2>
         <p>
@@ -28,14 +25,13 @@ function Contact() {
         <div className="contact-info">
           <p><strong>📞 Phone:</strong> +91-8392813000</p>
           <p><strong>📧 Business Inquiries:</strong> <a href="mailto:booknerdpublication@gmail.com">booknerdpublication@gmail.com</a></p>
-          <p><strong>🏢 Office Address:</strong> A-123, Tech Park Road, New Delhi</p>
+          <p><strong>🏢 Office Address:</strong> 3rd floor, P90 South Extension Part 2, Delhi - 110048</p>
         </div>
         <p className="contact-footer">
           We look forward to collaborating with you to make examinations better, smarter, and safer.
         </p>
       </div>
 
-      {/* Google Map */}
       <div className="contact-map">
         <iframe
           title="office-map"

@@ -1,7 +1,7 @@
 .services-container {
     padding: 4rem 2rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: -38px auto;
   }
   
   .services-heading {
@@ -10,6 +10,7 @@
     margin-bottom: 3rem;
     color: #333;
     position: relative;
+    margin-top: 0rem;
   }
   
   .services-heading::after {
@@ -73,6 +74,7 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     color: #333;
+    margin-top:-1rem;
   }
   
   .service-content p {

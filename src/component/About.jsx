@@ -4,15 +4,12 @@ import '../assets/css/about.css';
 function About() {
   return (
     <>
-      {/* Transparent Hero Section */}
       <div className="contact-hero">
         <div className="hero-text">
           <h1>About Us</h1>
           <p>Learn more about who we are and what we do.</p>
         </div>
       </div>
-
-      {/* About Content */}
       <div className="about-content">
         <p>
           <strong>Booknerd Publication LLP</strong> is a trusted name in the field of examination and educational service delivery. 

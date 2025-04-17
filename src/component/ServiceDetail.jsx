@@ -36,8 +36,8 @@ function ServiceDetail() {
           ]
         },
         {
-          title: "🖥 Our On-Screen Evaluation (OSM)",
-          content: "Booknerd's On-Screen Evaluation (OSM) System digitizes the evaluation of physical theory answer scripts via a secure, centralized platform. No cutting of answer sheets is required — our scanners preserve the original integrity of the script. We support institutions by providing:",
+          title: "🖥 On-Screen Evaluation (OSM)",
+          content: "Our On-Screen Evaluation (OSM) System digitizes the evaluation of physical theory answer scripts via a secure, centralized platform. No cutting of answer sheets is required — our scanners preserve the original integrity of the script. We support institutions by providing:",
           features: [
             "High-speed scanning at exam centers or our designated hubs",
             "Secure cloud upload with encrypted access",

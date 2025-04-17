@@ -1,4 +1,4 @@
-/* Professional Contact Page Styling */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -7,12 +7,10 @@ body {
   line-height: 1.6;
 }
 
-/* Contact Page Container */
 .contact-page {
   width: 100%;
 }
 
-/* Hero Section */
 .contact-hero {
   background: linear-gradient(to right, #213444, #2c4c63);
   color: white;
