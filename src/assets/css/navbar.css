@@ -147,25 +147,21 @@
     }
   }
 
-  /* Desktop & mobile: active link background/navy & white text */
 .menu-link a.active {
-  background-color: #001f3f;  /* Navy blue */
-  color: #ffffff !important;  /* White text */
+  background-color: #001f3f; 
+  color: #ffffff !important; 
   border-radius: 4px;
   padding: 0.5rem 1rem;
 }
 
-/* Optional: hover state for active link */
 .menu-link a.active:hover {
   background-color: #003366;
 }
 
-/* Ensure mobile dropdown panel still shows navy when open */
 .menu-link.active {
   background-color: #001f3f;
 }
 
-/* And mobile links white */
 .menu-link.active a {
   color: #ffffff;
 }

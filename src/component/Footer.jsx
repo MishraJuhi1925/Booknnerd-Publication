@@ -67,7 +67,7 @@ function Footer() {
             </a>
           </p>
           <p>
-            <FaMapMarkerAlt /> &nbsp;Address - 3rd floor, P90 South Extension Part 2, Delhi -&nbsp;&nbsp;&nbsp; &nbsp;110048
+            <FaMapMarkerAlt /> &nbsp;Address - 3rd floor, P90 South Extension Part 2, &nbsp;&nbsp;&nbsp; &nbsp;Delhi -110048
           </p>
 
           {/* <div className="socials">
