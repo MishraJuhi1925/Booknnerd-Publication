@@ -62,7 +62,7 @@ function Recognitions() {
         <h2>Organizations That Entrusted Us</h2>
         <div className="recognitions-grid">
   <div className="recognition-card simple-card cbse-highlight">
-    <h4>CBSE BOARD</h4>
+    {/*   <h4>CBSE BOARD</h4> */}
     <img src="/images/1.jpg" alt="CBSE Board" className="logo-img" />
   </div>
 </div>
@@ -70,11 +70,11 @@ function Recognitions() {
         <h2>Our Certifications</h2>
         <div className="recognitions-grid">
         <div className="recognition-card simple-card">
-            <h3>Start-Up India Certified</h3>
+            {/* <h3>Start-Up India Certified</h3> */}
             <img src="/images/strar.jpg" alt="Start-Up India" className="logo-img" />
           </div>
           <div className="recognition-card simple-card">
-            <h3>ISO Certification</h3>
+            {/* <h3>ISO Certification</h3> */}
             <img src="/images/iso.jpg" alt="ISO Certified" className="logo-img" />
           </div>
         </div>
