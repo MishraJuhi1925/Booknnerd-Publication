@@ -1,0 +1,197 @@
+
+  .recognitions-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/light-pattern.png');
+    opacity: 0.1;
+    z-index: 0;
+  }
+  
+  .recognitions-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  
+  .recognition-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin: 10px  auto;
+    display: block;
+  }
+  
+ 
+  .recognitions-content h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #4a90e2;
+  }
+ 
+  .recognition-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recognition-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+  .recognition-card strong {
+    color: #4a90e2;
+    font-weight: 600;
+  }
+  
+  .recognitions-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .recognitions-content h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .recognitions-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recognition-card {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width:445px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .recognition-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .recognition-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recognition-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+  }
+ 
+  .mission-box {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 10px;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    max-width: 948px;
+    text-align: center;
+  }
+  
+  .mission-box h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #003366;
+  }
+  
+  .mission-box p {
+    font-size: 1.05rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .cbse-highlight {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .cbse-highlight .logo-img {
+    height: 100px; 
+    object-fit: contain;
+  }
+  
+
+  .recognitions-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    .recognitions-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .recognitions-container {
+      padding: 4rem 1.5rem;
+    }
+    
+    .recognitions-content h2 {
+      font-size: 2rem;
+    }
+    
+    .recognition-card {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .recognitions-container {
+      padding: 3rem 1rem;
+    }
+    
+    .recognitions-content h2 {
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+    }
+    
+    .recognitions-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .recognition-icon {
+      width: 80px;
+      height: 80px;
+    }
+    
+    .recognition-card h3 {
+      font-size: 1.3rem;
+    }
+  }
