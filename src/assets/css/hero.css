@@ -119,7 +119,7 @@
 }
 @media screen and (max-width: 480px) {
   .hero-content h1 {
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   .hero-content p {
@@ -137,7 +137,7 @@
   
   .hero-container img {
     height: 80vh;
-    object-fit: contain;
+    object-fit: cover;
   }
  
   .hero-contents {
@@ -149,7 +149,7 @@
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 500px) {
   .hero-container {
     height: 60vh;
   }
