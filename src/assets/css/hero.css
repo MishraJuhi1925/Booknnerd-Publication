@@ -136,7 +136,8 @@
 @media only screen and (max-width: 768px) {
   
   .hero-container img {
-    height: 80vh;
+    /* height: 80vh; */
+    height: auto;
     object-fit: cover;
   }
  
@@ -152,6 +153,7 @@
 @media only screen and (max-width: 480px) {
   .hero-container {
     /* height: 60vh; */
+    background-color: #a0c4e4;
     height: auto;
   }
   .hero-container img {
