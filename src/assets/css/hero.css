@@ -157,11 +157,11 @@
 
 @media only screen and (max-width: 470px) {
   .hero-container {
-    height: 50vh;
+    height: 40vh;
     /* height: auto; */
   }
   .hero-container img {
-    height: 50vh;
+    height: 40vh;
     /* height: auto; */
     width: 100%;
     object-fit: contain;
