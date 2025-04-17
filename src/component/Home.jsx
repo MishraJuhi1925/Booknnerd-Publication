@@ -8,6 +8,7 @@ import ServiceDetail from "./ServiceDetail";
 import About from "./About";
 import Recognitions from "./Recognitions";
 import Contact from "./Contact";
+import ScrollToTop from "./ScrollToTop";
 
 function Home() {
   const location = useLocation();
@@ -16,6 +17,7 @@ function Home() {
   return (
     <div>
       <Navbar />
+      <ScrollToTop />
         <Routes>
         <Route
           path="/"
