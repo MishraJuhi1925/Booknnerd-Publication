@@ -112,11 +112,12 @@ function Contact() {
         </div>
 
       <div className="contact-map">
-      <iframe
+      {/* <iframe
     title="Booknerd Publication LLP Map"
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.9284746141484!2d77.2193352!3d28.570062200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce326a9074c4f%3A0x1bd487951bbcbe92!2sBooknerd%20Publication%20LLP!5e1!3m2!1sen!2sin!4v1744957301241!5m2!1sen!2sin"
    
-  ></iframe>
+  ></iframe> */}
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.9284746141484!2d77.2193352!3d28.570062200000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce326a9074c4f%3A0x1bd487951bbcbe92!2sBooknerd%20Publication%20LLP!5e1!3m2!1sen!2sin!4v1744965357362!5m2!1sen!2sin" ></iframe>
         
       </div>
     </>
