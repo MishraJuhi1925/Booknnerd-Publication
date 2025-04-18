@@ -82,51 +82,85 @@ function ServiceDetail() {
       description: "At Booknerd Publication LLP, our mission is to deliver examinations that are secure, transparent, and future-ready.",
       // Add mission details here
     },
-    'end-to-end-exam-execution-services': {
-        title: "📘 Conduction of Examination",
-        description: "We provide complete on-ground support for exam day execution, ensuring that every step – from logistics to integrity control – is handled with precision and security.",
-        mainHeading: {
-          title: "✍ Key Services Include:",
+    // 'end-to-end-exam-execution-services': {
+    //     title: "📘 Conduction of Examination",
+    //     description: "We provide complete on-ground support for exam day execution, ensuring that every step – from logistics to integrity control – is handled with precision and security.",
+    //     mainHeading: {
+    //       title: "✍ Key Services Include:",
          
-        },
-        sections: [
-          // {
-          //   title: "Key Services Include:",
-          //   content: "We provide the following key services to ensure smooth and secure exam conduction:"
-          // },
-          {
-            title: "• Center Management",
-            content: "Identification, setup, and coordination of examination centers across multiple locations."
-          },
-          {
-            title: "• Invigilator Deployment",
-            content: "Trained invigilators and supervisors provided as per the scale and requirement of the exam."
-          },
-          {
-            title: "• CCTV Surveillance",
-            content: "Installation of CCTV cameras at examination centers for real-time monitoring and recording."
-          },
-          {
-            title: "• Biometric & ID Verification",
-            content: "On-site candidate verification using biometric scanners and photo ID matching to eliminate impersonation."
-          },
-          {
-            title: "• Cheating Prevention",
-            content: "Strict protocols including frisking, and multiple invigilators per room to prevent malpractice."
-          },
-          {
-            title: "• Logistics & Stationery",
-            content: "Supply and management of question papers, OMR sheets, attendance sheets, and other exam materials."
-          },
-          {
-            title: "• Live Monitoring",
-            content: "Centralized dashboard for real-time oversight of all centers, including live CCTV feeds and attendance tracking."
-          },
-          // {
-          //   title: "This service ensures that exams are conducted in a fair, transparent, and compliant environment, maintaining the highest standards of integrity."
-          // }
-        ]
-      }
+    //     },
+    //     sections: [
+    //       {
+    //         title: "• Center Management",
+    //         content: "Identification, setup, and coordination of examination centers across multiple locations."
+    //       },
+    //       {
+    //         title: "• Invigilator Deployment",
+    //         content: "Trained invigilators and supervisors provided as per the scale and requirement of the exam."
+    //       },
+    //       {
+    //         title: "• CCTV Surveillance",
+    //         content: "Installation of CCTV cameras at examination centers for real-time monitoring and recording."
+    //       },
+    //       {
+    //         title: "• Biometric & ID Verification",
+    //         content: "On-site candidate verification using biometric scanners and photo ID matching to eliminate impersonation."
+    //       },
+    //       {
+    //         title: "• Cheating Prevention",
+    //         content: "Strict protocols including frisking, and multiple invigilators per room to prevent malpractice."
+    //       },
+    //       {
+    //         title: "• Logistics & Stationery",
+    //         content: "Supply and management of question papers, OMR sheets, attendance sheets, and other exam materials."
+    //       },
+    //       {
+    //         title: "• Live Monitoring",
+    //         content: "Centralized dashboard for real-time oversight of all centers, including live CCTV feeds and attendance tracking."
+    //       },
+    //       // {
+    //       //   title: "This service ensures that exams are conducted in a fair, transparent, and compliant environment, maintaining the highest standards of integrity."
+    //       // }
+    //     ]
+    //   }
+    'end-to-end-exam-execution-services': {
+  title: "📘 Conduction of Examination",
+  description: "We provide complete on-ground support for exam day execution, ensuring that every step – from logistics to integrity control – is handled with precision and security.",
+  mainHeading: {
+    title: "✍ Key Services Include:",
+  },
+  sections: [
+    {
+      title: "📍 Center Management",
+      content: "Identification, setup, and coordination of examination centers across multiple locations."
+    },
+    {
+      title: "👨‍🏫 Invigilator Deployment",
+      content: "Trained invigilators and supervisors provided as per the scale and requirement of the exam."
+    },
+    {
+      title: "🎥 CCTV Surveillance",
+      content: "Installation of CCTV cameras at examination centers for real-time monitoring and recording."
+    },
+    {
+      title: "🔒 Biometric & ID Verification",
+      content: "On-site candidate verification using biometric scanners and photo ID matching to eliminate impersonation."
+    },
+    {
+      title: "🚫 Cheating Prevention",
+      content: "Strict protocols including frisking, and multiple invigilators per room to prevent malpractice."
+    },
+    {
+      title: "📦 Logistics & Stationery",
+      content: "Supply and management of question papers, OMR sheets, attendance sheets, and other exam materials."
+    },
+    {
+      title: "📡 Live Monitoring",
+      content: "Centralized dashboard for real-time oversight of all centers, including live CCTV feeds and attendance tracking."
+    },
+  ]
+}
+
   };
 
   const currentService = serviceDetails[slug] || {

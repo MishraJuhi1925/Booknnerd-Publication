@@ -1,4 +1,4 @@
-.about-page {
+/* .about-page {
   background-color: #f8f9fa;
   min-height: 100vh;
   padding: 4rem 0;
@@ -27,6 +27,7 @@
   font-size: 1.1rem;
   line-height: 1.8;
   color: #444;
+  
 }
 
 .about-content p {
@@ -64,5 +65,83 @@
   .contact-content {
     font-size: 1rem;
     line-height: 1.7;
+  }
+} */
+
+.about-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+}
+
+.about-container {
+  max-width: 900px; /* Limit container width */
+  width: 100%; /* Make it responsive */
+  padding: 0 2rem; /* Left and right padding for spacing */
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-divider {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2.5rem;
+}
+
+.about-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+  text-align: justify; 
+  margin: 0 auto; 
+  padding: 0 200px;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about-page {
+    padding: 3rem 0;
+  }
+
+  .about-title {
+    font-size: 2.2rem;
+  }
+
+  .about-container {
+    padding: 0 2rem; /* More padding for medium screens */
+  }
+
+  .about-content {
+    font-size: 1rem; /* Adjust font size for readability */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-page {
+    padding: 2rem 0;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-container {
+    padding: 0 1.5rem; /* Reduced padding on small screens */
+  }
+
+  .about-content {
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 0 1rem; /* Padding on the left and right to prevent text from touching the edges */
   }
 }
