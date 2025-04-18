@@ -412,7 +412,6 @@ body {
   font-weight: 300;
 }
 
-/* Contact Container */
 .contact-container {
   max-width: 1200px;
   margin: -50px auto 3rem;
@@ -420,7 +419,6 @@ body {
   position: relative;
 }
 
-/* Contact Grid */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -428,7 +426,6 @@ body {
   margin-bottom: 3rem;
 }
 
-/* Info Box (Left Side) */
 .contact-info-box {
   background: white;
   border-radius: 8px;
@@ -682,7 +679,7 @@ body {
   }
 
   .contact-hero {
-    padding: 4rem 1rem 2rem; /* Top padding increased to push it below nav */
+    padding: 4rem 1rem 2rem;
     text-align: center;
   }
 
