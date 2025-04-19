@@ -18,7 +18,7 @@ function About() {
           evaluation and result analytics.
         </p>
         <p>
-        With a strong legacy of excellence, we are proud to have collaborated with prestigious clients such as the CBSE Board. Our recognition under <b> the Start-up India initiative, ISO certification, and CMMI Level 3 </b>accreditation stand as a testament to our unwavering commitment to quality, data confidentiality, and process maturity. These achievements reinforce our position as a trusted leader in the examination and assessment services domain.
+        With a strong legacy of excellence, we are proud to have collaborated with prestigious clients such as the CBSE Board. Our recognition under <b>  the Start-up India initiative, ISO certification, and CMMI Level 3 accreditation </b> stand as a testament to our unwavering commitment to quality, data confidentiality, and process maturity. These achievements reinforce our position as a trusted leader in the examination and assessment services domain.
         </p>
         <p>
           What sets us apart is our ability to blend technology with accountability — offering high-security 
