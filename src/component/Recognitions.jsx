@@ -77,6 +77,10 @@ function Recognitions() {
             {/* <h3>ISO Certification</h3> */}
             <img src="/images/iso.jpg" alt="ISO Certified" className="logo-img" />
           </div>
+          <div className="recognition-card simple-card">
+            {/* <h3>ISO Certification</h3> */}
+            <img src="/images/cmmi.jpg" alt="ISO Certified" className="logo-img" />
+          </div>
         </div>
 
       </div>
